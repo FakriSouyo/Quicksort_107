@@ -71,3 +71,12 @@ void q_short(int low, int high)
 			cmp_count++;
 		}
 		cmp_count++;
+
+		// if the greater element is on the left of the element
+		if (i < j)										//Langkah ALgoritma No.9
+		{
+			//swap the element at index i whit the element at index j
+			swap(i, j);
+			mov_count++;
+		}
+	}
